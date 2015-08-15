@@ -18,10 +18,15 @@ gem 'redis', '~> 3.0.1'
 gem 'hiredis', '~> 0.4.5'
 
 group :development, :test do
-  gem 'byebug'
-
   gem 'web-console', '~> 2.0'
 
   gem 'spring'
 end
 
+group :production do
+  gem 'pg'
+
+  gem 'rails_12factor'
+end
+
+ruby "2.1.0"
