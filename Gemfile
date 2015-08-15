@@ -10,7 +10,12 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+
 gem 'foundation-rails'
+gem 'devise', '~> 3.4.0'
+
+gem 'redis', '~> 3.0.1'
+gem 'hiredis', '~> 0.4.5'
 
 group :development, :test do
   gem 'byebug'
