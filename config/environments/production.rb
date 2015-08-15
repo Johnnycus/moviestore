@@ -75,6 +75,4 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   config.action_mailer.default_url_options = { host: 'moviesonrails.herokuapp.com' }
-
-  config.web_console.whitelisted_ips = '10.0.2.2'
 end

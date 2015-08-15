@@ -17,8 +17,6 @@ gem 'redis', '~> 3.0.1'
 gem 'hiredis', '~> 0.4.5'
 
 group :development, :test do
-  gem 'web-console', '~> 2.0'
-
   gem 'mysql2'
 
   gem 'spring'
@@ -27,4 +25,8 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+end
+
+group :development do
+  gem 'web-console'
 end
